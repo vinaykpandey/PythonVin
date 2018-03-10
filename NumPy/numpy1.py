@@ -12,7 +12,7 @@ l = range(1000) # create a list with thousand/1000 element in it
 
 print(sys.getsizeof(5)*len(l)) # here 5 is any number between 0-999 // consume 24000 byte
 '''
-size of one 1 python object list is 24 byte
+size of one python object list is 24 byte (64 byte Architecture)
 '''
 
 numPyarray = np.arange(1000) # arange is funtion to create array element 0-999 // consume 8000 byte
@@ -20,5 +20,5 @@ numPyarray = np.arange(1000) # arange is funtion to create array element 0-999 /
 
 print(numPyarray.size*numPyarray.itemsize);
 '''
-size of one  1  numbpy python object list is 8 byte
+size of one  numbpy python object list is 8 byte (64 byte Architecture)
 '''
