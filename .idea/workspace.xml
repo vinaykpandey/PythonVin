@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27286494-cebb-44b2-a6c1-f168ccc3b080" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procedural/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procedural/db_conn.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Fibonacci.py" afterPath="$PROJECT_DIR$/Programs/Practice/Fibonacci.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/File/1.csv" afterPath="$PROJECT_DIR$/Programs/File/1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/File/fileHandle.py" afterPath="$PROJECT_DIR$/Programs/File/fileHandle.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Functions/1.py" afterPath="$PROJECT_DIR$/Programs/Functions/1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Functions/2.py" afterPath="$PROJECT_DIR$/Programs/Functions/2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Functions/3.py" afterPath="$PROJECT_DIR$/Programs/Functions/3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Loops/__init__.py" afterPath="$PROJECT_DIR$/Programs/Searching/search_in_tuple.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Loops/decrement.py" afterPath="$PROJECT_DIR$/Programs/Loops/decrement.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Loops/forloop.py" afterPath="$PROJECT_DIR$/Programs/Loops/forloop.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Loops/loop_for.py" afterPath="$PROJECT_DIR$/Programs/Loops/loop_for.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Loops/while.py" afterPath="$PROJECT_DIR$/Programs/Loops/while.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Modules/1.py" afterPath="$PROJECT_DIR$/Programs/Modules/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Multiples_of_number.py" afterPath="$PROJECT_DIR$/Programs/Practice/Multiples_of_number.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Searching/search_in_dictionary.py" afterPath="$PROJECT_DIR$/Programs/Searching/search_in_dictionary.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Searching/search_in_list.py" afterPath="$PROJECT_DIR$/Programs/Searching/search_in_list.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Searching/search_in_string.py" afterPath="$PROJECT_DIR$/Programs/Searching/search_in_string.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Searching/search_in_tuple.py" afterPath="$PROJECT_DIR$/Programs/Practice/pole_area.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/Sorting/bubble_sort.py" afterPath="$PROJECT_DIR$/Programs/Sorting/bubble_sort.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/__init__.py" afterPath="$PROJECT_DIR$/Programs/Loops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/curl_get.py" afterPath="$PROJECT_DIR$/Programs/Practice/curl_get.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/divide_sum.py" afterPath="$PROJECT_DIR$/Programs/Practice/divide_sum.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/floor_division.py" afterPath="$PROJECT_DIR$/Programs/Practice/floor_division.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/info.py" afterPath="$PROJECT_DIR$/Programs/Practice/info.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/prime_factor.py" afterPath="$PROJECT_DIR$/Programs/Practice/prime_factor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/run.py" afterPath="$PROJECT_DIR$/Programs/Practice/run.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/string.py" afterPath="$PROJECT_DIR$/Programs/Practice/string.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/stringRev.py" afterPath="$PROJECT_DIR$/Programs/Practice/stringRev.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/string_rev.py" afterPath="$PROJECT_DIR$/Programs/Practice/string_rev.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/sum_digit.py" afterPath="$PROJECT_DIR$/Programs/Practice/sum_digit.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/sum_num_recursion.py" afterPath="$PROJECT_DIR$/Programs/Practice/sum_num_recursion.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/swap.py" afterPath="$PROJECT_DIR$/Programs/Practice/swap.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/swapping_logic.py" afterPath="$PROJECT_DIR$/Programs/Practice/swapping_logic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procedural/tuple_list.py" afterPath="$PROJECT_DIR$/Programs/Practice/tuple_list.py" />
-    </list>
+    <list default="true" id="27286494-cebb-44b2-a6c1-f168ccc3b080" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
