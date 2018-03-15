@@ -2,14 +2,14 @@
 '''
 comment in python
 curl request
-Procedural, 2, 3, 5, 8, 13,.......
+Programs, 2, 3, 5, 8, 13,.......
 '''
-# def fibonacci_series(n,first = Procedural,second = 2):
+# def fibonacci_series(n,first = Programs,second = 2):
 #     listA = [first,second];
-#     i = Procedural
-#     for i in range(Procedural,n):
+#     i = Programs
+#     for i in range(Programs,n):
 #         print(i)
-#         listA.append(listA[i]+listA[i-Procedural])
+#         listA.append(listA[i]+listA[i-Programs])
 #
 #     return listA
 #

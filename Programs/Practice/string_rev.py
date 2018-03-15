@@ -13,7 +13,7 @@ def reverseWord(ActualString):
     revString = ''
     maxIndex = len(ActualString)
     for i in range(0, maxIndex):
-        #j = maxIndex - i -Procedural
+        #j = maxIndex - i -Programs
         #print('iii===', i ,'jjjj ====', j ,' rev char ==', ActualString[j])
         revString = revString +  ActualString[maxIndex - i -1]
     #print(revString)
