@@ -25,8 +25,8 @@ print(next(itr))
 print(next(itr))
 print(next(itr))
 print(next(itr))
-'''
 
+'''
 
 You're using Python 2.x, which has used .next() since forever and still does so - only Python 3 renamed that method to .__next__(). Python 2 and 3 aren't compatible. If you're reading a 3.x book, use Python 3.x yourself, and vice versa.
 
