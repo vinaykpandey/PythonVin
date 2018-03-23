@@ -7,7 +7,9 @@ def <func-name> (fargs, *args, **kwargs):
 '''
 
 def get_data(engine, *queries, **properties):
-     print(engine, queries, properties)
+     print('fomral argument, fargs: ',engine)
+     print('variable argument, *args: ',queries)
+     print ('keyworded variable argument, **kwargs: ',properties)
 
 
-get_data('google', 'python', 'flask', 'django', limit=10, offset=0,)
+get_data('google', 'python', 'flask', 'django, REST API', limit=10, offset=0,)
