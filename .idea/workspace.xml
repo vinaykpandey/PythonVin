@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27286494-cebb-44b2-a6c1-f168ccc3b080" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advance/ex_**kwargs.py" afterPath="$PROJECT_DIR$/Advance/ex_**kwargs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advance/ex_*args.py" afterPath="$PROJECT_DIR$/Advance/ex_*args.py" />
-    </list>
+    <list default="true" id="27286494-cebb-44b2-a6c1-f168ccc3b080" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
