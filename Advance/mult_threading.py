@@ -22,8 +22,8 @@ def cal_cube(NList):
 
 NumberList = [2,3,4,5,6,7]
 
-t1 = threading.Thread(target=cal_square, args=(NumberList, ))
-t2 = threading.Thread(target=cal_cube, args=(NumberList, ))
+t1 = threading.Thread(target=cal_square, args=(NumberList,))
+t2 = threading.Thread(target=cal_cube, args=(NumberList,))
 
 t1.start()
 t2.start()

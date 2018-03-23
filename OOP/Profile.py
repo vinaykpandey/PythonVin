@@ -12,12 +12,14 @@ class UserProfile:
     collge = ''
 
     def __init__(self): #constructor
+        print(__name__)
         self.name = 'Vinay'
         self.age =  32
         self.collge = 'GLAITM'
 
     def display_name(self):
-        print(self.name)
+        print('Yes')
+        #print(self.name)
 
     def add_user(self, lisUser):
         pass

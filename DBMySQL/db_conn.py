@@ -1,5 +1,13 @@
 #!/usr/bin/python
+'''
 
+http://www.metaltoad.com/blog/getting-command-line-access-php-and-mysql-running-mamp-osx
+
+i have run the command in "sudo ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock"
+and able to access php+mysql in CLI
+
+
+'''
 import MySQLdb
 
 # Open database connection

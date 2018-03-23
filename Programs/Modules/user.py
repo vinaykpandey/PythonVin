@@ -7,4 +7,22 @@ sys.path.append('var/www/python/pymodule/')  full path = var/www/python/pymodule
 import functions  as F
 '''
 import sys
-sys.path.append()
+#sys.path.append() # to import using full path of module
+
+def sum():
+     xyz()
+     print 'hello inside sum'
+
+
+
+def abc():
+     print ('This is ABC')
+
+abc()
+
+def  xyz():
+      print ('This is XYZ')
+
+if __name__ == '__main__':
+     sum()
+
