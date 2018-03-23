@@ -7,3 +7,6 @@ def  record(**data):
     print(data) # convert key value pair is at dictionary
 
 record(name='Vinay', age='32')
+
+d = {'name': 'Abc', 'age':'30'}
+record(**d)
