@@ -10,7 +10,7 @@ def calc_cube(numbers):
         print('cube ' + str(n*n*n))
 
 if __name__ == "__main__":
-    arr = [2,3,8]
+    arr = range(1,100)
     p1 = multiprocessing.Process(target=calc_square, args=(arr,))
     p2 = multiprocessing.Process(target=calc_cube, args=(arr,))
 

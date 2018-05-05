@@ -3,6 +3,12 @@
 curl request
 resposne:
 {"results": [{"alternatives": [{"confidence": 0.7269427, "transcript": "hello Pandey Ji how are you doing"}]}]
+
+
+ json.dumps({'apple': 'cat', 'banana':'dog', 'pear':'fish'})
+'{"pear": "fish", "apple": "cat", "banana": "dog"}'
+
+json.loads( encoded_str )
 '''
 import requests
 import json
