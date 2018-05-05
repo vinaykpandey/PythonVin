@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 iterable vs iterator
 

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import datetime
 date_str = "Sun 10 May 2015 13:54:36 -0700"
 

@@ -1,6 +1,10 @@
 import time
 from multiprocessing import Pool
 
+'''
+Its uses the core of CPU,  
+reduce map is make sense when we have more than 1 cpu
+'''
 
 def f(n):
     return n*n
