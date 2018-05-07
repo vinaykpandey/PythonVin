@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27286494-cebb-44b2-a6c1-f168ccc3b080" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advance/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advance/lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advance/list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advance/list_comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advance/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advance/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advance/reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advance/reduce.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +24,35 @@
       <file leaf-file-name="list_comprehension.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Advance/list_comprehension.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="276">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="map.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advance/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="276">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reduce.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advance/reduce.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advance/filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -96,7 +112,6 @@
         <option value="$PROJECT_DIR$/loggingmodule.py" />
         <option value="$PROJECT_DIR$/input_example.py" />
         <option value="$PROJECT_DIR$/Advance/multi_processing.py" />
-        <option value="$PROJECT_DIR$/Advance/reduce.py" />
         <option value="$PROJECT_DIR$/Advance/itertool.py" />
         <option value="$PROJECT_DIR$/DateTime/date_time.py" />
         <option value="$PROJECT_DIR$/Advance/reduce_map.py" />
@@ -104,11 +119,13 @@
         <option value="$PROJECT_DIR$/Advance/lambda.py" />
         <option value="$PROJECT_DIR$/Advance/list_comprehension.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Advance/filter.py" />
+        <option value="$PROJECT_DIR$/Advance/reduce.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
+    <option name="x" value="102" />
     <option name="y" value="23" />
     <option name="width" value="1149" />
     <option name="height" value="823" />
@@ -125,6 +142,11 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Advance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,8 +185,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list_comprehension">
-    <configuration name="date_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.reduce">
+    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,29 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DateTime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DateTime/date_sample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="date_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DateTime" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DateTime/date_time.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advance/filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,6 +253,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advance/map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="reduce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advance/reduce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,19 +427,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.date_time" />
-      <item itemvalue="Python.date_sample" />
       <item itemvalue="Python.map" />
       <item itemvalue="Python.lambda" />
       <item itemvalue="Python.list_comprehension" />
+      <item itemvalue="Python.filter" />
+      <item itemvalue="Python.reduce" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reduce" />
+        <item itemvalue="Python.filter" />
         <item itemvalue="Python.list_comprehension" />
         <item itemvalue="Python.lambda" />
         <item itemvalue="Python.map" />
-        <item itemvalue="Python.date_time" />
-        <item itemvalue="Python.date_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -444,17 +466,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="291" y="23" width="1149" height="823" extended-state="0" />
+    <frame x="104" y="308" width="1149" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879121" visible="true" weight="0.18247516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4879121" weight="0.18247516" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3292011" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.20946915" side_tool="true" weight="0.37327823" />
-      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.4137308" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.4137308" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3278237" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.338843" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.14131995" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.79053086" visible="true" weight="0.4311295" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.79053086" weight="0.4311295" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39871794" />
       <window_info id="Favorites" order="2" sideWeight="0.51208794" side_tool="true" weight="0.14347202" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,22 +489,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4879121" visible="true" weight="0.14347202" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.4137308" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879121" visible="true" weight="0.18247516" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.14131995" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3292011" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3278237" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.4139168" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39871794" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.79053086" visible="true" weight="0.37327823" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20946915" side_tool="true" visible="true" weight="0.37327823" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.51208794" side_tool="true" visible="true" weight="0.14347202" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.338843" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39871794" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.79053086" visible="true" weight="0.4311295" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20946915" side_tool="true" weight="0.37327823" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3278237" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.51208794" side_tool="true" weight="0.14347202" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -786,24 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/itertool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DateTime/date_time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/lambda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -814,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advance/mult_threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -828,10 +829,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/reduce.py">
+    <entry file="file://$PROJECT_DIR$/Advance/multi_processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -842,27 +850,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/filter.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advance/multi_processing.py">
+    <entry file="file://$PROJECT_DIR$/Advance/lambda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="223">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advance/itertool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Advance/list_comprehension.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="276">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Advance/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="276">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advance/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advance/reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
