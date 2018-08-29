@@ -15,6 +15,7 @@ The special syntax **kwargs in function definitions in python is used to pass
 import time
 def time_it_decorator(func):
     def wrapper_function(*args, **kwargs): # wrapper_function(i)
+        print('func =',func)
         start = time.time()
         result = func(*args, **kwargs)  # func(i)
         end = time.time()
@@ -22,7 +23,7 @@ def time_it_decorator(func):
         return result
     return wrapper_function #[function in python is first call member/citizen]
 
-@time_it_decorator
+#@time_it_decorator
 def calculate_square(numbers):
     result = []
     for number in numbers:
@@ -36,6 +37,11 @@ def calculate_cube(numbers):
         result.append(number*number*number)
     return result
 
-array = range(1,1000)
-out_square = calculate_square(array)
+array = range(1,10)
+#out_square = calculate_square(array)
 out_cube = calculate_cube(array)
+decorated_calculate_square = time_it_decorator(calculate_square)
+print(decorated_calculate_square)
+#print(decorated_calculate_square)
+#decorated_calculate_square(array)
+#calculate_cube(array)
