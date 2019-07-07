@@ -23,5 +23,5 @@ n lambda x, y: x + y; x and y are arguments to the function and x + y is the exp
 lambda x, y: x + y returns a function object which can be assigned to any variable, in this case function object is assigned to the add variable.'''
 
 sum_num = lambda x, y: x + y
-print sum_num(2, 3) # Output: 5
+print (sum_num(2, 3)) # Output: 5
 
