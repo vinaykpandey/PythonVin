@@ -2,9 +2,9 @@ def  Palindrome(s):
         y = s[::-1]
         print (y)
         if s == s[::-1]:
-            print "Palindrome"
+            print ("Palindrome")
         else:
-             print "NOT Palindrome"
+             print ("NOT Palindrome")
 
 
         '''length = len(s)
