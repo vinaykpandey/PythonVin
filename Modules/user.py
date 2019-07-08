@@ -11,7 +11,7 @@ import sys
 
 def sum():
      xyz()
-     print 'hello inside sum'
+     print('hello inside sum')
 
 
 
