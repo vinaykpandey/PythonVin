@@ -6,9 +6,9 @@ poles are arranged in random order the difference between 2 pole is 1 (unit)
 we have to tied a string between 2 poles under some condition:
 Pole1 tied with pole longer than pole in sequence
 OR
-Pole1 is maxmium than all, tied string with local maxima for the reamining pole
+Pole1 is maxmium than all, tied string with local maxima for the remaining pole
 
-Repeat this process and calculate sum of area (i.e. square/rectanle)
+Repeat this process and calculate sum of area (i.e. square/rectangle)
 
 '''
 
