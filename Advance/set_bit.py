@@ -21,5 +21,3 @@ print((n & 1))
 print(n >> 1)
 # Function calling
 print(countSetBits(n))
-
-# This code is contributed by

@@ -20,3 +20,11 @@ for x in range(3, 6):
 # Prints out 3,5,7    <  8
 for x in range(3, 8, 2):
     print('increment by 2: ', x)
+
+x = 0
+max_num = 20
+for x in range(x, max_num, x+4):
+     print (x)
+
+for i in range(10, 0, -1):
+    print(i)
