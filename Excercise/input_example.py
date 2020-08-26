@@ -10,19 +10,13 @@ def is_leap(year):
     return leap
 
 
-   
-
-
-
 n = input()
 input_str = input()
 input_list = input_str.split()
 input_list = map(int, input_list)
 # input_list = [int(x) for x in input_list]
 t = tuple(input_list)
-print hash(t)
-
-
+print(hash(t))
 n = input()
 str = input()
 lst = str.split()
@@ -30,6 +24,4 @@ lst = map(int, lst)
 t = tuple(lst)
 print(hash(t))
 
-
-
-a,b=map(int,raw_input().split())   # Taking multiple inputs from user in python
+a, b = map(int, input().split() )  # Taking multiple inputs from user in python
