@@ -29,17 +29,17 @@ class Stack:
     def is_empty(self):
         return self.items == []
 
-
-s = Stack()
-print(s.is_empty())
-s.push("A")
-s.push("B")
-print(s.get_stack())
-s.push("C")
-print(s.get_stack())
-# elem = s.pop()
-# print("pop element is {0}".format(elem))
-s.push("D")
-print(s.get_stack())
-print(s.is_empty())
-print(s.peek())
+if __name__ == "__main__":
+    s = Stack()
+    print(s.is_empty())
+    s.push("A")
+    s.push("B")
+    print(s.get_stack())
+    s.push("C")
+    print(s.get_stack())
+    # elem = s.pop()
+    # print("pop element is {0}".format(elem))
+    s.push("D")
+    print(s.get_stack())
+    print(s.is_empty())
+    print(s.peek())
