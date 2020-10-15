@@ -1,4 +1,4 @@
-#/usr/bin/python
+# /usr/bin/python
 '''
 curl request
 resposne:
@@ -12,18 +12,17 @@ json.loads( encoded_str )
 '''
 import requests
 import json
-from StringIO import StringIO
+
 
 def curl_get_request():
     url = "http://localhost:8888/curl_get.php"
-    response = requests.post(url,data={'key1':'value1', 'key2':'value2'})
-    jString = response.content # string
-    jload =  json.loads(jString) # dictionary
+    response = requests.post(url, data={'key1': 'value1', 'key2': 'value2'})
+    jString = response.content  # string
+    jload = json.loads(jString)  # dictionary
     return jload
 
+
 if __name__ == "__main__":
-
-	dData = curl_get_request()
-        print dData
-        #print dData['name'];
-
+    dData = curl_get_request()
+    print(dData)
+# print dData['name'];
