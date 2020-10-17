@@ -1,14 +1,11 @@
 """
 https://www.openbookproject.net/thinkcs/python/english2e/ch19.html
-Stack Data Structure
 LIFO (Last In First Out)
 D
 C
 B
 A
 """
-
-
 class Stack:
     def __init__(self):
         self.items = []
