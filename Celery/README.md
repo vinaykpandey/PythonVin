@@ -13,3 +13,5 @@ celery -A tasks worker --loglevel=info
 
 
 python, celery, redis(pub sub) # publisher subscribers
+
+
