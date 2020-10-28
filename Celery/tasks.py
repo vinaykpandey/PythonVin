@@ -47,3 +47,6 @@ def multiply(x, y):
     print("Multiplication is: "+ str(multiplication))
     file_write("Multiplication is: " + str(multiplication))
     # return multiplication # it doesn't make any sense in real
+
+
+#celery -A tasks worker --loglevel=info
