@@ -1,5 +1,6 @@
 from celery import Celery
 from celery.schedules import crontab
+from functions import file_write
 
 BROKER_URL = 'redis://localhost:6379/0'
 BACKEND_URL = 'redis://localhost:6379/1'
@@ -7,7 +8,7 @@ app = Celery('tasks', broker=BROKER_URL, backend=BACKEND_URL)
 
 @app.on_after_configure.connect
 def setup_periodic_tasks(sender, **kwargs):
-    # Calls test('hello') every 10 seconds.
+    # Calls test('hello') every 10 seconds. case 1
     sender.add_periodic_task(
         2.0,
         test.s('hello'),
@@ -26,8 +27,10 @@ def setup_periodic_tasks(sender, **kwargs):
 
 @app.task
 def test(arg):
+    print("Celery beat is running----")
+    file_write("Celery beat is running----")
     print(arg)
 
 
-#celery -A periodic_task beat --loglevel=info
-    #celery -A periodic_task worker -B --loglevel=info
+#celery -A periodic_task_v1 beat --loglevel=info
+#celery -A periodic_task_v1 worker -B --loglevel=info  # case 1

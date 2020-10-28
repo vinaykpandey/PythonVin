@@ -8,3 +8,5 @@ print("Add result task id: ", add_task_id)
 
 task_id_m = multiply.delay(5,7)
 print("Multiplication result is: ", task_id_m)
+
+#celery -A tasks worker --loglevel=info

@@ -14,7 +14,7 @@ def welcome():
     print("Welcome  task is executed")
     file_write("Welcome  task is executed")
     for i in range(50):
-        # time.sleep(1.5)
+        time.sleep(1.5)
         print("Welcome loop count: " + str(i))
         file_write("Welcome loop count: " + str(i))
     print("Welcome End")
@@ -26,7 +26,7 @@ def add(x, y):
     print("Add  task is executed")
     file_write("Add  task is executed")
     for i in range(50):
-        # time.sleep(1)
+        time.sleep(1)
         print("Add loop count: " + str(i))
         file_write("Add loop count: " + str(i))
     sum =  x + y
@@ -39,7 +39,7 @@ def multiply(x, y):
     print("Multiplication  task is executed")
     file_write("Multiplication  task is executed")
     for i in range(50):
-        # time.sleep(2)
+        time.sleep(2)
         print("Multiplication loop count: " + str(i))
         file_write("Multiplication loop count: " + str(i))
 
