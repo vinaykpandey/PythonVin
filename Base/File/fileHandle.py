@@ -17,7 +17,7 @@ def readingCsv(fileName):
     try:
         reader = csv.reader(f)
         for row in reader:
-            print row
+            print(row)
             print(type(row))
     finally:
         f.close()
