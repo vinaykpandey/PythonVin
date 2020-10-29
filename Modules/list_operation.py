@@ -31,6 +31,6 @@ if __name__ == '__main__':
     #[iterate number of operation in loop]
     for row in range(N+1):
             #[convert passed value in list]
-            inputs = raw_input().split()
+            inputs = input().split()
             list_procession(L, inputs)
             #print('list elements =====', L)
