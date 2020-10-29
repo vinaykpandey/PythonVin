@@ -9,7 +9,7 @@ from ip_service import *
 
 
 # code run start from here
-env = str(raw_input("Enter ENV: ")) # python version  >=3  we used:  input()
+env = str(input("Enter ENV: ")) # python version  >=3  we used:  input()
 print(env)
 serverDetails = services_ip(env)
 AppServerIP = serverDetails['app_server'] #App server Details
@@ -21,7 +21,7 @@ WebServerIP = serverDetails['web_server'] #Web server Details
 App_Services = running_service('app')  # Services on App Server
 Web_Services = running_service('web') # Services on Web Server
 
-server_input = str(raw_input("Enter Server No b/w 1-6 for which you want to see the result or enter All for result of all servers: \n "))
+server_input = str(input("Enter Server No b/w 1-6 for which you want to see the result or enter All for result of all servers: \n "))
 # Enter 1-6 or all for app server services
 print(server_input)
 #print(type(server_input))
