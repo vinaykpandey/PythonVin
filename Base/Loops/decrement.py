@@ -7,7 +7,7 @@ def sum_using_loop(n):
         print('==n ===', n , ' ,,iiii ==', i);
         AddNum = AddNum+i
     return AddNum;
-N = int(raw_input("Input Number to add: "))
+N = int(input("Input Number to add: "))
 S = sum_using_loop(N)
 print("Sum ===" , S);
 

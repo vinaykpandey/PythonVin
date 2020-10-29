@@ -35,7 +35,7 @@ def setup_periodic_tasks(**kwargs):
 @app.task(bind=True, base=Person)
 def test(self, arg):
     print("Celery beat is running----")
-    print(arg)
+    print("arg from periodic task call: ", arg)
     print(self.__dict__)
 
 

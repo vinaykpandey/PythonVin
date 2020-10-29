@@ -25,7 +25,7 @@ def list_procession(L, inputs):
                  print(L)
 
 if __name__ == '__main__':
-    N = int(raw_input()) #[Number of operation/iteration]
+    N = int(input()) #[Number of operation/iteration]
     #import random
     L= []
     #[iterate number of operation in loop]

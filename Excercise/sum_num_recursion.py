@@ -4,13 +4,13 @@ def sum_using_recursion(n):
     s = 0
     if(n==1):
         print('if  ===' ,n)
-        return n;
+        return n
     else:
         print('else  sss ===',s, ' nnn ===',n)
         s = n + sum_using_recursion(n-1)
         print('else  sss ===',s, ' nnn ===',n)
         return s
 
-N = int(raw_input("Input Number to add: "))
+N = int(input("Input Number to add: "))
 S = sum_using_recursion(N)
-print("Sum ===", S);
+print("Sum ===", S)
