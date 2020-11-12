@@ -13,7 +13,7 @@ def test_subtract():
     sub_total = mathlib.subtract(11, 5)
     assert sub_total == 6
 
-
-def def_multiply():
+@pytest.mark.vinaytag
+def test_multiply():
     res = mathlib.multiply(3, 4)
     assert res == 12
