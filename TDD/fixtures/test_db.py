@@ -1,16 +1,16 @@
 from .db import MyDB
 import pytest
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def cur():
-    print("setting up")
+    print("**************  START  DB **************")
     db = MyDB()
     conn = db.connect("server")
     curs = conn.cursor()
     yield curs
     curs.close()
     conn.close()
-    print("closing DB")
+    print(" ----------- closing DB --------------- ")
 
 def test_vinay_id(cur):
     id = cur.execute("select id from employee_db where name=vinay")

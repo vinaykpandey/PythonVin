@@ -21,4 +21,17 @@ pytest -k multiply # function based
 
 
 
+-------------------------
+fixers
+---
+database related testing
+two ways:
+1. setup and teardown methods (classic xunit style)
+    def setup():
+        #database setup connection
+    def teardown():
+        # after test cases do some cleanup (closed database connection)
+2. fixtures (recommended)
+
+pytest -v --capture=no
 
