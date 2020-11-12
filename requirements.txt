@@ -1,4 +1,4 @@
 redis==3.3.11
 celery==5.0.1
-pytest==3.3.2
-flower
+pytest==5.2.0
+flower==0.9.5

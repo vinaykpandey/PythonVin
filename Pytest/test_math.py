@@ -14,7 +14,7 @@ def test_sqrt():
 
 def test_square():
     num = 7
-    square_num = 40
+    square_num = 49
     assert  num*num == square_num
 
 
