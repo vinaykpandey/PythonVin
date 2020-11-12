@@ -11,5 +11,14 @@ python -m pytest
 python -m pytest -v
 py.test
 py.test -v
+pytest -v -rxs 
+
+pytest filename 
+pytest filename -v
+
+
+pytest -k multiply # function based
+
+
 
 
