@@ -5,5 +5,6 @@ create marker tag
 
 pytest -m <markername> -v
 
+register marker in pytest.ini
 
 """
