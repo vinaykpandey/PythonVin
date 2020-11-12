@@ -12,4 +12,8 @@ python -m pytest -v
 py.test
 py.test -v
 
+pytest filename
+
+pytest -v -rxs 
+
 
