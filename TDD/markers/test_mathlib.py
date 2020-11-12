@@ -1,12 +1,11 @@
 import pytest
 import sys
-import mathlib
+from . import mathlib
 
 @pytest.mark.skip(reason="I don't want to run this at this moment")
 def test_sum():
     total = mathlib.sum(4, 5)
     assert total == 9
-
 
 @pytest.mark.skipif(sys.version_info < (3, 4), reason="Version is older")
 def test_subtract():
