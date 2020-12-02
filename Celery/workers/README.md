@@ -1,0 +1,1 @@
+# celery -A workers.math_cal worker --loglevel=info
