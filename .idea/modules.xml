@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CorePy.iml" filepath="$PROJECT_DIR$/.idea/CorePy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Data-Analysis/.idea/Data-Analysis.iml" filepath="$PROJECT_DIR$/../Data-Analysis/.idea/Data-Analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Django/.idea/Django.iml" filepath="$PROJECT_DIR$/../Django/.idea/Django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Flask/.idea/Flask.iml" filepath="$PROJECT_DIR$/../Flask/.idea/Flask.iml" />
+    </modules>
+  </component>
+</project>
