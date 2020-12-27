@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 #from profile   import Profile
 '''
 import class file profile.py as   import Profile

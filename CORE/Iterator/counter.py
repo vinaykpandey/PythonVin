@@ -6,7 +6,7 @@ class Counter:
     def __iter__(self):
         return self
 
-    def __next__(self): # Python 2: def next(self)
+    def __next__(self):  # Python 2: def next(self)
         if self.current > self.high:
             raise StopIteration
         else:

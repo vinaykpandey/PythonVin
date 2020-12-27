@@ -58,7 +58,6 @@ def multiply(x, y):
 def div(x, y):
     return x / y
 
-
 num1 = 20
 num2 = 4
 
