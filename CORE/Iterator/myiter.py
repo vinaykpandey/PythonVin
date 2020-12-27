@@ -18,6 +18,7 @@ class MyIter:
         self.num += 1
         return self.num
 
+
 obj = MyIter()
 print(obj, type(obj))
 print(next(obj))
@@ -27,7 +28,6 @@ it = iter(obj)
 print(next(it))
 print(next(it))
 print(next(it))
-
 
 print("--------------loop ------------------")
 for c in MyIter():

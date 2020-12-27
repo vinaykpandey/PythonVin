@@ -2,7 +2,7 @@
 
 '''
 "naive" and "aware" objects
-You need to read the top of the datetime docs, which explain about timezones and "naive" and "aware" objects.
+You need to read the top of the datetime docsinfo, which explain about timezones and "naive" and "aware" objects.
 If your original naive datetime was UTC, the way to recover it is to use utcfromtimestamp instead of fromtimestamp.
 
 '''

@@ -15,7 +15,7 @@ import json
 
 
 def curl_get_request():
-    url = "http://localhost:8888/curl_get.php"
+    url = "http://localhost:5002/"
     response = requests.post(url, data={'key1': 'value1', 'key2': 'value2'})
     jString = response.content  # string
     jload = json.loads(jString)  # dictionary

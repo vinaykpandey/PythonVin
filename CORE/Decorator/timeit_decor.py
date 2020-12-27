@@ -13,35 +13,46 @@ The special syntax **kwargs in function definitions in python is used to pass
 """
 
 import time
+
+
 def time_it_decorator(func):
-    def wrapper_function(*args, **kwargs): # wrapper_function(i)
-        print('func =',func)
+    def wrapper_function(*args, **kwargs):  # wrapper_function(i)
+        print('func =', func)
         start = time.time()
         result = func(*args, **kwargs)  # func(i)
         end = time.time()
-        print(func.__name__ +" took " + str((end-start)*10000) + "mil sec")
+        print(func.__name__ + " took " + str((end - start) * 10000) + "mil sec")
         return result
-    return wrapper_function #[function in python is first call member/citizen]
 
-#@time_it_decorator
+    return wrapper_function  # [function in python is first call member/citizen]
+
+
+# @time_it_decorator
 def calculate_square(numbers):
     result = []
     for number in numbers:
-        result.append(number*number)
+        result.append(number * number)
     return result
+
 
 @time_it_decorator
 def calculate_cube(numbers):
     result = []
     for number in numbers:
-        result.append(number*number*number)
+        result.append(number * number * number)
     return result
 
-array = range(1,10)
-#out_square = calculate_square(array)
-out_cube = calculate_cube(array)
+
+array = range(1, 10)
+
+out_square = calculate_square(array)
+print(out_square)
+print("********************* DECORATOR *********************")
 decorated_calculate_square = time_it_decorator(calculate_square)
-print(decorated_calculate_square)
-#print(decorated_calculate_square)
-#decorated_calculate_square(array)
-#calculate_cube(array)
+#  <function time_it_decorator.<locals>.wrapper_function at 0x7f6700fac6a8>
+print(decorated_calculate_square(array))
+
+print("********************* CUBE *********************")
+decorated_calculate_square(array)
+out_cube = calculate_cube(array)
+print(out_cube)

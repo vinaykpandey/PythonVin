@@ -21,3 +21,7 @@ a_logger.addHandler(output_file_handler)
 a_logger.addHandler(stdout_handler)
 
 """
+
+https://www.toptal.com/python/in-depth-python-logging
+
+https://www.datadoghq.com/blog/python-logging-best-practices/

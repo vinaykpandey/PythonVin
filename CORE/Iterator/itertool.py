@@ -40,7 +40,7 @@ l2 = ['a', 'b', 'c']
 
 iterable = iter(range(15))
 for i in iterable:
-    # print('strat ==== ', i)
+    # print('start ==== ', i)
     if i == 5:
         [iterable.next() for x in range(1)]
     print('= ====', i)
