@@ -3,6 +3,7 @@
 ------------------
 virtualenv
 ------------------
+virtualenv -p python2.7 nameofenv
 
 virtualenv -p python3.6 venv
 source venv/bin/activate
