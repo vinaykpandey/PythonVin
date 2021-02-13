@@ -12,7 +12,7 @@ class NumberNotInRange(Exception):
         super().__init__(self.message)
 
     def __str__(self):
-        return f"{self.number} -> {self.message}"
+        return "{} -> {}".format(self.number, self.message)
 
 
 num = int(input("Enter number: "))
@@ -20,9 +20,8 @@ try:
     if not 500 < num < 1500:
         raise NumberNotInRange(num)
 except NumberNotInRange as N:
-    print(f"{N.message}")
+    print("{}".format(N.message))
 else:
-    print(f"{num} is in range")
+    print("{} is in range".format(num))
 finally:
-    print(f"{num} is in finally")
-
+    print("{} is in finally".format(num))
