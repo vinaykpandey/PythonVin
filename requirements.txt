@@ -3,3 +3,4 @@ celery==4.4.7
 pytest==5.2.0
 flower==0.9.5
 pika==1.1.0
+mysqlclient==2.0.3

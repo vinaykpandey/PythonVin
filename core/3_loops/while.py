@@ -1,4 +1,4 @@
-#/usr/bin/python
+# /usr/bin/python
 # a = 0
 # b = 1
 # fibo=[a, b];
@@ -17,15 +17,15 @@ b = c'''
 
 a = 1
 b = 2
-fibo=[b];
+fibo = [b]
 sum = 2
 while b < 4000000:
-     a, b = b, a+b
-     print("b------: ",b)
-     if b < 4000000:
-         if b%2 == 0:
+    a, b = b, a + b
+    print("b------: ", b)
+    if b < 4000000:
+        if b % 2 == 0:
             fibo.append(b)
-            sum = sum+b
-print (fibo)
+            sum = sum + b
+print(fibo)
 
-print("sum====",sum)
+print("sum====", sum)

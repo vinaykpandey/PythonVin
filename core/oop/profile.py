@@ -1,4 +1,4 @@
-from decorator import message
+from .decorator import message
 
 print(message)
 '''

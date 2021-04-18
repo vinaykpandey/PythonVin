@@ -12,12 +12,11 @@ Repeat this process and calculate sum of area (i.e. square/rectanle)
 
 '''
 
+# Hlist = [22,19,30,21,24,35,28,23,25,17,12]
+# TempList = Hlist
 
-#Hlist = [22,19,30,21,24,35,28,23,25,17,12]
-#TempList = Hlist
-
-HL = [11,12,13,14,15,16 ,17,18,19]
+HL = [11, 12, 13, 14, 15, 16, 17, 18, 19]
 for x in range(len(HL)):
-    print('x ====', x ,' value ===', HL[x])
-    if(x == 2):
+    print('x ====', x, ' value ===', HL[x])
+    if (x == 2):
         x = 5
