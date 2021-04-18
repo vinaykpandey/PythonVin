@@ -10,9 +10,11 @@ BROKER_URL = 'pyamqp://guest:guest@localhost://'
 BACKEND_URL = 'redis://localhost:6379/1'
 app = Celery('tasks', broker=BROKER_URL, backend=BACKEND_URL)
 
+
 class Person(Task):
     def __init__(self):
         self.name = "Vinay Pandey"
+
 
 @app.on_after_configure.connect
 def setup_periodic_tasks(**kwargs):
@@ -25,7 +27,7 @@ def setup_periodic_tasks(**kwargs):
     )
 
     # Calls test('world') every 30 seconds
-    #sender.add_periodic_task(30.0, test.s('world'), expires=10)
+    # sender.add_periodic_task(30.0, test.s('world'), expires=10)
 
     # Executes every Monday morning at 7:30 a.m.
     # sender.add_periodic_task(
@@ -39,6 +41,3 @@ def test(self, arg):
     print("Vins the striker...")
     logging.debug("Celery beat is running----")
     print("arg from periodic task call: ", arg)
-
-
-

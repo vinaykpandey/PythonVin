@@ -9,5 +9,5 @@ class Employee:
 
 # obj = Employee(1001)
 # obj2 = Employee(23)
-Employee.__count_obj  = 10
+Employee.__count_obj = 10
 print(Employee.__count_obj)

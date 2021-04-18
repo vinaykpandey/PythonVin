@@ -1,14 +1,17 @@
 from collections import OrderedDict
-def count_occurrences(str):
-    uniqstr = "".join(OrderedDict.fromkeys(str))
-    newstr = ""
-    for char in uniqstr:
+
+
+def count_occurrences(string):
+    unique_str = "".join(OrderedDict.fromkeys(string))
+    new_str = ""
+    for char in unique_str:
         # print(char)
-        char_count = str.count(char)
-        newstr = newstr + char
-        newstr = newstr + '{}'.format(char_count)
+        char_count = string.count(char)
+        new_str = new_str + char
+        new_str = new_str + '{}'.format(char_count)
 
-    return newstr
+    return new_str
 
-str = 'occurrences'
-print(count_occurrences(str))
+
+input_str = 'occurrences'
+print(count_occurrences(input_str))

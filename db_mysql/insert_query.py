@@ -1,21 +1,15 @@
-#!/usr/bin/python
-import sys
-import MySQLdb
+from db_conn import cursor, db
 
-# Open database connection
-db = MySQLdb.connect("localhost","root","root","test" )
-# prepare a cursor object using cursor() method
-cursor = db.cursor() #
-
-sql = "INSERT INTO `team_name`  SET `scores` = '50' , `email` = 'abc@gmail.com' "
+sql = "INSERT INTO `team_name`  SET `scores` = '40' , `email` = 'abc1@gmail.com' "
 try:
-   # Execute the SQL command
-   cursor.execute(sql)
-   # Commit your changes in the database
-   db.commit()
-except:
-   # Rollback in
- db.rollback()
+    # Execute the SQL command
+    cursor.execute(sql)
+    # Commit your changes in the database
+    db.commit()
+except Exception as e:
+    print(e)
+    # Rollback in
+    db.rollback()
 
 # disconnect from server
 db.close()
