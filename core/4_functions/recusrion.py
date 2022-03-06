@@ -7,7 +7,7 @@ def fact(x):
         return 1
     else:
         time.sleep(2)
-        s = x * fact(x - 1);
+        s = x * fact(x - 1)
         print('temp result', x, '  ==', s)
         return s
 

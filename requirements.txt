@@ -6,3 +6,4 @@ pika==1.1.0
 mysqlclient==2.0.3
 mypy==0.812
 SQLAlchemy==1.4.12
+prettytable==2.1.0

@@ -1,37 +1,37 @@
-#!/usr/bin/env python
-'''
+"""
 Dynamic setters and getters
-'''
+"""
 
-externalData = {'name':'Abc'} # Dictionary
-attrKeys = ['name', 'age'] # list of property
+external_data = {'name': 'Abc'}  # Dictionary
+attr_keys = ['name', 'age']  # list of property
+
 
 class Transform(object):
 
-
     def __getattribute__(self, name):
-       if name in attrKeys:
-          # print ('if name in attrKeys')
-           return externalData[name]
-       #return super(Transform, self).__getattribute__(name)
-       return externalData[name]
+        if name in attr_keys:
+            # print ('if name in attrKeys')
+            return external_data[name]
+        # return super(Transform, self).__getattribute__(name)
+        return external_data[name]
 
     def __setattr__(self, name, value):
-        if name in attrKeys:
-            #print ('if name in attrKeys')
-            externalData[name] = value
+        if name in attr_keys:
+            # print ('if name in attrKeys')
+            external_data[name] = value
         else:
-            externalData[name] = value
-            #super(Transform, self).__setattr__(name, value)
+            external_data[name] = value
+            # super(Transform, self).__setattr__(name, value)
 
-print(externalData)
-print(attrKeys)
 
-myInstance = Transform()
-myInstance.name = 'Vinay'
-myInstance.age = '32'
-myInstance.skills = 'Math'
-myInstance.grade = 'A+'
+print(external_data)
+print(attr_keys)
 
-print(attrKeys)
-print(externalData)
+my_instance = Transform()
+my_instance.name = 'Vinay'
+my_instance.age = '32'
+my_instance.skills = 'Math'
+my_instance.grade = 'A+'
+
+print(attr_keys)
+print(external_data)
