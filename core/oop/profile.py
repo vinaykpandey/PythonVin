@@ -1,4 +1,4 @@
-from .decorator import message
+from message_decor import message
 
 print(message)
 '''
@@ -11,6 +11,9 @@ True/False =  issubclass(ChildClass, ParentClass)
 
 
 class UserProfile:
+    """
+    doing some poc
+    """
     decorators = [message]
 
     name = ''
@@ -25,16 +28,18 @@ class UserProfile:
         obj_self.age = 32
         obj_self.college = 'GLAITM'
 
-    def display_name(self):
+    def set_name(obj_self):
         # print('Yes')
-        print(self.name)
+        print(obj_self.name)
 
-    def add_user(self, user_list):
-        pass
+    def get_name(self):
+        print(self.name)
 
 
 if __name__ == '__main__':
     obj = UserProfile()
     print(vars(obj))
     # print(obj.__dict__)
-    obj.display_name()
+    obj.get_name()
+    obj.name = "Dev"
+    obj.get_name()

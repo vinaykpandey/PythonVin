@@ -16,7 +16,7 @@ def Fibonacci(n):
 # Driver Program
 # use loop to print all element
 for i in range(1,10):
-    # print(Fibonacci(i))
+    print(Fibonacci(i))
     pass
 
 

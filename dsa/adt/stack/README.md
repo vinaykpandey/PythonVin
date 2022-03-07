@@ -13,3 +13,9 @@ queue.LifoQueue
 
 list -> Dynamic array
 collections.deque -> doubly linked list
+
+
+References:
+
+https://www.youtube.com/watch?v=zwb3GmNAtFk
+
